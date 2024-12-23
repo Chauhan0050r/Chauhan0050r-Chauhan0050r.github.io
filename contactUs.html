@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css" integrity="sha512-HHsOC+h3najWR7OKiGZtfhFIEzg5VRIPde0kB0bG2QRidTQqf+sbfcxCTB16AcFB93xMjnBIKE29/MjdzXE+qw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styleContact.css">
+</head>
+<body>
+    <!-- logo section -->
+    <div class="header">
+        <div class="logo">
+            <img src="xyz_processed.jpg" alt="Logo" style="float: left; width: 100px; height: 100px;margin-top: 0px;margin-bottom: 0px;">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="./home.html"><h3>Home</h3></a></li>
+                <li><a href="./index.html"><h3>News</h3></a></li>
+                <li><a href="./contactUs.html"><h3>Contact Us</h3></a></li>
+            </ul>
+            <div class="bar">
+                <i class="open fa-solid fa-bars-staggered"></i>
+                <i class="close fa-solid fa-xmark"></i>
+            </div>
+        </nav>
+    </div>
+    <header>
+        <!-- <img src="xyz_processed.jpg" alt="Logo" style="float: left; width: 100px; height: 100px; margin-right: 20px;">
+        <div style="clear: both;"></div>
+        <h1 align="center">Contact <span>Us</span></h1>
+    </header> -->
+    
+    <div class="contact-container">
+        <br>
+        <br>
+        <br>
+        <br>
+        <!-- Left Section: Form -->
+        <div class="contact-left">
+            <br>
+            <br>
+            <br>
+            <br>
+            <p>Feel free to drop us a message with below details for new investment or call us at 022-69394444</p>
+            <form id="contact-form">
+                <label for="name">Full Name*</label>
+                <input type="text" id="name" placeholder="Please enter your Name" required>
+
+                <label for="phone">Mobile Number*</label>
+                <input type="tel" id="phone" placeholder="Please enter your Phone Number" required>
+
+                <label for="email">Email*</label>
+                <input type="email" id="email" placeholder="Please enter your Email Id" required>
+
+                <label for="product">Investment product*</label>
+                <select id="product" required>
+                    <option value="" disabled selected>Please select the type of investment</option>
+                    <option value="PMS">PMS</option>
+                    <option value="AIF">AIF</option>
+                </select>
+
+                <label for="message">You're interested in</label>
+                <textarea id="message" placeholder="Please type in a message"></textarea>
+
+                <button type="submit" id="submit-button">Submit</button>
+            </form>
+
+            
+        </div>
+
+        <!-- Right Section: Contact Details -->
+        <div class="contact-right">
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="investment-details">
+                <h3>For queries on existing investments</h3>
+                <p><strong>For PMS:</strong> <a href="mailto:pms.assist@valuequest.in">abcxyz@gmail.in</a></p>
+                <p><strong>For AIF:</strong> <a href="mailto:aif.assist@valuequest.in">abcxyz@gmail.com</a></p>
+            </div>
+            <div class="complaints">
+                <h3>For complaints and grievances</h3>
+                <p><a href="mailto:complaints@valuequest.in">complaints@gmail.com</a></p>
+            </div>
+
+            <!-- Office Maps -->
+            <div class="office-details">
+                <h3>Registered Office</h3>
+                <iframe src="https://maps.google.com/maps?q=ValueQuest%20Investment%20Advisors&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="200"></iframe>
+                <p>ABC INVESTOR PVT LTD,<br> D202. Hall-5 ,IIT Kanpur, Kalyanpur, Uttar Pradesh 208016</p>
+
+                <h3>Corporate Office</h3>
+                <iframe src="https://maps.google.com/maps?q=Kohinoor%20Square%20Business%20Park&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="200"></iframe>
+                <p>ABC INVESTOR PVT LTD,<br>  D202. Hall-5 ,IIT Kanpur, Kalyanpur, Uttar Pradesh 208016.</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="box">
+            <div class="left">
+                <!-- <div class="categories">
+                    <p>Categories</p>
+                    <div>
+                        <p>Sports</p>
+                    </div>
+                    <div>
+                        <p>Business</p>
+                    </div>
+                    <div>
+                        <p>Technology</p>
+                    </div>
+                </div> -->
+                <div class="contactUs">
+                    <div class="contact">
+                        <p>Contact Us</p>
+                        <div>Phone No. - <span>9876543210</span></div>
+                        <div>Email - <span>abc@gmail.com</span></div>
+                        <div>Address - <span>Mumbai, India</span></div>
+                    </div>
+
+                    <div class="icon">
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="newsletter">
+                    <p>Subscribe to Our Newsletter</p>
+                    <div class="email">
+                        <input type="email" placeholder="Enter Your Email Here">
+                        <button>Subscribe</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyrights">
+            Copyrights &copy; 2022 Coders Villa
+        </div>
+    </div>
+
+    <!-- Include JS -->
+    <script src="contactUs.js"></script>
+</body>
+</html>
